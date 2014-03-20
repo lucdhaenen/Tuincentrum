@@ -1,0 +1,18 @@
+﻿<Window x:Class="Tuincentrum.ZoekPlanten"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ZoekPlanten" Height="366" Width="428" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="Kies een soort:" Height="28" HorizontalAlignment="Left" Margin="21,31,0,0" Name="label1" VerticalAlignment="Top" Width="163" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="200,36,0,0" Name="comboBoxSoorten" VerticalAlignment="Top" Width="184" SelectionChanged="comboBoxSoorten_SelectionChanged" />
+        <Label Content="Nummer:" Height="28" HorizontalAlignment="Left" Margin="200,90,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="Leverancier:" Height="28" HorizontalAlignment="Left" Margin="200,138,0,0" Name="label3" VerticalAlignment="Top" Width="84" />
+        <Label Content="Kleur:" Height="28" HorizontalAlignment="Left" Margin="200,191,0,0" Name="label4" VerticalAlignment="Top" Width="84" />
+        <Label Content="Verkoopprijs:" Height="28" HorizontalAlignment="Left" Margin="200,243,0,0" Name="label5" VerticalAlignment="Top" Width="84" />
+        <Label Height="28" HorizontalAlignment="Left" Margin="311,88,0,0" Name="labelNummer" VerticalAlignment="Top" Width="73" />
+        <Label Height="28" HorizontalAlignment="Left" Margin="311,138,0,0" Name="labelLeverancier" VerticalAlignment="Top" Width="73" />
+        <Label Height="28" HorizontalAlignment="Left" Margin="311,191,0,0" Name="labelKleur" VerticalAlignment="Top" Width="73" />
+        <Label Height="28" HorizontalAlignment="Left" Margin="311,243,0,0" Name="labelVerkoopPrijs" VerticalAlignment="Top" Width="73" />
+        <ListBox Height="227" HorizontalAlignment="Left" Margin="21,88,0,0" Name="listBoxPlanten" VerticalAlignment="Top" Width="163" SelectionChanged="listBoxPlanten_SelectionChanged" />
+    </Grid>
+</Window>

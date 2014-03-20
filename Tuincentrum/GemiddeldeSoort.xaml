@@ -1,0 +1,11 @@
+﻿<Window x:Class="Tuincentrum.GemiddeldeSoort"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GemiddeldeSoort" Height="300" Width="300">
+    <Grid>
+        <Label Content="Soort : " Height="28" HorizontalAlignment="Left" Margin="21,50,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="75,52,0,0" Name="textBoxSoort" VerticalAlignment="Top" Width="156" />
+        <Button Content="Bereken gemiddelde kostprijs" Height="23" HorizontalAlignment="Left" Margin="29,110,0,0" Name="buttonBereken" VerticalAlignment="Top" Width="202" Click="buttonBereken_Click" />
+        <Label Height="28" HorizontalAlignment="Left" Margin="29,177,0,0" Name="labelStatus" VerticalAlignment="Top" Width="202" />
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+﻿<Window x:Class="Tuincentrum.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Test" Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="buttonTest" VerticalAlignment="Top" Width="92" Click="buttonTest_Click" />
+        <Label  Height="28" HorizontalAlignment="Left" Margin="12,57,0,0" Name="labelStatus" VerticalAlignment="Top" />
+    </Grid>
+</Window>
